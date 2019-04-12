@@ -1,0 +1,353 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  font-family: STHeitiSC-Light;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+ins,
+a {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  display: inline-block;
+}
+
+input,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+  -ms-tap-highlight-color: transparent;
+  -o-tap-highlight-color: transparent;
+}
+
+/*html {
+    font-size: $browser-default-font-size;
+}*/
+html {
+  font-size: 37.5px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper .header {
+  width: 100%;
+  height: 1.6rem;
+  background: #00C3B1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 0.37333rem;
+  color: #fff;
+}
+
+.wrapper .header .left {
+  display: flex;
+}
+
+.wrapper .header .left span {
+  font-size: 0.4rem;
+}
+
+.wrapper .header .left p {
+  margin-left: 0.13333rem;
+}
+
+.wrapper .header .left p img {
+  width: 0.26667rem;
+  height: 0.26667rem;
+}
+
+.wrapper .header .con input {
+  width: 6.18667rem;
+  height: 0.98667rem;
+  background: #00A697;
+  text-align: center;
+  border-radius: 0.16rem;
+}
+
+.wrapper .header .right {
+  margin-right: 0.26667rem;
+}
+
+.wrapper .header .right dl {
+  text-align: center;
+}
+
+.wrapper .main {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.wrapper .main .swiper-container {
+  width: 100%;
+  height: 2.93333rem;
+}
+
+.wrapper .main .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 2.93333rem;
+}
+
+.wrapper .main .swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 2.93333rem;
+}
+
+.wrapper .main .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 2.93333rem;
+}
+
+.wrapper .main .cont {
+  width: 100%;
+  height: 5.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  border-bottom: 0.02667rem solid #ccc;
+}
+
+.wrapper .main .cont dl {
+  width: 20%;
+}
+
+.wrapper .main .cont dl dt img {
+  width: 1.28rem;
+  height: 1.28rem;
+}
+
+.wrapper .main .cont dl dd {
+  font-size: 0.32rem;
+  line-height: 0.8rem;
+}
+
+.wrapper .main .box {
+  width: 100%;
+  height: 0.53333rem;
+  background: #eee;
+  border-bottom: 0.02667rem solid #ccc;
+}
+
+.wrapper .main .like {
+  width: 100%;
+}
+
+.wrapper .main .like .title {
+  width: 100%;
+  height: 1.17333rem;
+  line-height: 1.17333rem;
+}
+
+.wrapper .main .like .title span {
+  font-size: 0.4rem;
+  padding-left: 0.26667rem;
+}
+
+.wrapper .main .like .meau {
+  width: 100%;
+  height: 3.14667rem;
+  border-top: 0.02667rem solid #ccc;
+  border-bottom: 0.02667rem solid #ccc;
+}
+
+.wrapper .main .like .meau dl {
+  padding: 0.32rem;
+  display: flex;
+  font-size: 0.34667rem;
+}
+
+.wrapper .main .like .meau dl dt img {
+  width: 2.77333rem;
+  height: 2.48rem;
+}
+
+.wrapper .main .like .meau dl dd {
+  padding-left: 0.4rem;
+}
+
+.wrapper .main .like .meau dl dd h4 {
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+}
+
+.wrapper .main .like .meau dl dd > p {
+  line-height: 0.66667rem;
+}
+
+.wrapper .main .like .meau dl dd .tit {
+  margin-top: 0.53333rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .main .like .meau dl dd .tit .prize {
+  display: flex;
+}
+
+.footer {
+  width: 100%;
+  height: 1.6rem;
+  background: pink;
+}

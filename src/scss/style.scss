@@ -1,0 +1,146 @@
+@import "common.scss";
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .header {
+        width: 100%;
+        height: px2rem(60px);
+        background: #00C3B1;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: px2rem(14px);
+        color: #fff;
+        .left {
+            display: flex;
+            span {
+                font-size: px2rem(15px);
+            }
+            p {
+                margin-left: px2rem(5px);
+                img {
+                    width: px2rem(10px);
+                    height: px2rem(10px);
+                }
+            }
+        }
+        .con {
+            input {
+                width: px2rem(232px);
+                height: px2rem(37px);
+                background: #00A697;
+                text-align: center;
+                border-radius: px2rem(6px);
+            }
+        }
+        .right {
+            margin-right: px2rem(10px);
+            dl {
+                text-align: center;
+            }
+        }
+    }
+    .main {
+        flex: 1;
+        overflow-y: scroll;
+        .swiper-container {
+            width: 100%;
+            height: px2rem(110px);
+            .swiper-wrapper {
+                width: 100%;
+                height: px2rem(110px);
+                .swiper-slide {
+                    width: 100%;
+                    height: px2rem(110px);
+                    img {
+                        width: 100%;
+                        height: px2rem(110px);
+                    }
+                }
+            }
+        }
+        .cont {
+            width: 100%;
+            height: px2rem(210px);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            text-align: center;
+            border-bottom: px2rem(1px) solid #ccc;
+            dl {
+                width: 20%;
+                dt {
+                    img {
+                        width: px2rem(48px);
+                        height: px2rem(48px);
+                    }
+                }
+                dd {
+                    font-size: px2rem(12px);
+                    line-height: px2rem(30px);
+                }
+            }
+        }
+        .box {
+            width: 100%;
+            height: px2rem(20px);
+            background: #eee;
+            border-bottom: px2rem(1px) solid #ccc;
+        }
+        .like {
+            width: 100%;
+            .title {
+                width: 100%;
+                height: px2rem(44px);
+                line-height: px2rem(44px);
+                span {
+                    font-size: px2rem(15px);
+                    padding-left: px2rem(10px);
+                }
+            }
+            .meau {
+                width: 100%;
+                height: px2rem(118px);
+                border-top: px2rem(1px) solid #ccc;
+                border-bottom: px2rem(1px) solid #ccc;
+                dl {
+                    padding: px2rem(12px);
+                    display: flex;
+                    font-size: px2rem(13px);
+                    dt {
+                        img {
+                            width: px2rem(104px);
+                            height: px2rem(93px);
+                        }
+                    }
+                    dd {
+                        padding-left: px2rem(15px);
+                        h4 {
+                            line-height: px2rem(30px);
+                            font-size: px2rem(15px);
+                        }
+                        >p {
+                            line-height: px2rem(25px);
+                        }
+                        .tit {
+                            margin-top: px2rem(20px);
+                            display: flex;
+                            justify-content: space-between;
+                            .prize {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    height: px2rem(60px);
+    background: pink;
+}
